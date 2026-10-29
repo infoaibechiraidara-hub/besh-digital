@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+  --muted: 210 16.5% 46.9%;
+  --accent: 262 83.3% 51.8%;
+  --border: 214 32.1% 91.2%;
+  --card: 210 40% 98%;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-VariableFont_slnt.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
